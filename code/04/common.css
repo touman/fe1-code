@@ -1,0 +1,33 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+
+body { 
+   background: #EEE
+   font: 16px/1.5  "DejaVu Sans", monospace, "Abril Fatface", dejavu, serif, sans-serif;
+}
+
+p, ol, ul, dl {
+   padding-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   padding-bottom: 10px;
+   padding-top: 20px;
+}
+
+ul, ol{
+padding-left: 40px;
+}
+
+ul li { list-style-type: circle; }
+ul li ul li { list-style-type: square; }
+ul li ul li ul li { list-style-type: circle; }
+
+ol li { list-style-type: decimal; }
+ol li ol li { list-style-type: upper-alpha; }
+ol li ol li ol li { list-style-type: disc; }
+
+ul li ol li { list-style-type: upper-alpha; }
+ol li ul li { list-style-type: upper-alpha; }
